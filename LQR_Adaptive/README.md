@@ -126,7 +126,7 @@ The system matrices A and B correspond to the official Quanser Qube Servo-2 mode
 
 Due to copyright restrictions, the original Quanser Simulink files are not included in this repository. Users must obtain the official Qube Servo-2 software package from Quanser.
 
-The adaptive controller operates on top of the standard continuous-time state-space model provided by Quanser.
+The adaptive controller operates on top of the standard model provided by Quanser.
 
 ---
 
@@ -143,4 +143,15 @@ This folder contains the full adaptive logic inside a single Simulink file for c
 
 ---
 
-If you use this implementation in academic work, please cite the associated publication (if applicable).
+## Citation
+
+If you use this work in your research, please cite the associated paper.  
+Citation details will be provided upon publication.
+
+```bibtex
+@article{TBD,
+  title   = {Real-time Adaptive Linear Quadratic Regulator Control for the QUBE--2 Rotary Inverted Pendulum},
+  author  = {TBD},
+  journal = {TBD},
+  year    = {TBD}
+}
