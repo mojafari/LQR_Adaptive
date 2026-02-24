@@ -8,26 +8,27 @@ This folder contains the implementation of a standard Linear Quadratic Regulator
 
 Due to copyright restrictions, the original Quanser Simulink files are **not included** in this repository.
 
-To reproduce the results, users must obtain the official example models directly from Quanser and follow the standard LQR example provided with the Qube Servo-2 system.
+To reproduce the results, users must obtain the official example models directly from Quanser and follow the standard LQR Control example provided with the Qube Servo-2 system.
 
 ## How to Reproduce the Results
 
-1. Open the official Quanser Qube Servo-2 Simulink example for LQR control.
+1. Open the official Quanser Qube Servo-2 Simulink example for LQR Control.
 2. Use the system parameters provided by Quanser.
 3. Replace the LQR weighting matrices (Q, R) or the gain matrix (K) with the values provided below.
-4. Run the simulation under the same conditions described in the reference paper (if applicable).
-
-## LQR Design Parameters
-
-The controller was designed using the standard state-space formulation:
-
-ẋ = Ax + Bu  
-u = -Kx  
 
 ### Weighting Matrices
 
 ```matlab
-Q = diag([q1, q2, q3, q4]);
-R = r;
-
+Q = diag([5, 1, 1, 5]);
+R = 1;
 ```
+
+### Resulting Gain Matrix
+
+```matlab
+Q = [-2.2361,   43.9749,   -1.7938,    4.3719];
+```
+
+---
+
+For additional details about the hardware platform and official examples, please refer to the documentation provided by Quanser.
