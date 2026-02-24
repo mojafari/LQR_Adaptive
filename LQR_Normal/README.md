@@ -32,3 +32,16 @@ Q = [-2.2361,   43.9749,   -1.7938,    4.3719];
 ---
 
 For additional details about the hardware platform and official examples, please refer to the documentation provided by Quanser.
+
+## Citation
+
+If you use this work in your research, please cite the associated paper.  
+Citation details will be provided upon publication.
+
+```bibtex
+@article{TBD,
+  title   = {Real-time Adaptive Linear Quadratic Regulator Control for the QUBE--2 Rotary Inverted Pendulum},
+  author  = {TBD},
+  journal = {TBD},
+  year    = {TBD}
+}
