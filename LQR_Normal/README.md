@@ -39,9 +39,13 @@ If you use this work in your research, please cite the associated paper.
 Citation details will be provided upon publication.
 
 ```bibtex
-@article{TBD,
-  title   = {Real-time Adaptive Linear Quadratic Regulator Control for the QUBE--2 Rotary Inverted Pendulum},
-  author  = {TBD},
-  journal = {TBD},
-  year    = {TBD}
+@article{lopez2026real,
+  title={Real-Time Adaptive Linear Quadratic Regulator Control for the QUBE--2 Rotary Inverted Pendulum},
+  author={Lopez-Jordan, Cynthia and Jafari, Mohammad},
+  journal={Mathematical and Computational Applications},
+  volume={31},
+  number={2},
+  pages={33},
+  year={2026},
+  publisher={MDPI}
 }
