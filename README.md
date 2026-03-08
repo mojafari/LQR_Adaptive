@@ -6,15 +6,15 @@ This repository contains code and experimental resources related to the research
 
 ## Overview
 
-The objective of this work is to develop and validate a real-time adaptive LQR control framework for the QUBE–2 rotary inverted pendulum platform. The repository will include control algorithms, simulation models, experimental data, and documentation required to reproduce the reported results.
+The objective of this work is to develop and validate a real-time adaptive LQR control framework for the QUBE–2 rotary inverted pendulum platform. The repository includes control algorithms, simulation models, experimental data, and documentation required to reproduce the reported results.
 
 ## Paper Status
 
-📝 **Revised version under review**
+📝 **Published: 26 February 2026**
 
 ## Availability
 
-All source code, datasets, and supporting materials will be made publicly available **after the associated publication**.
+All source code, datasets, and supporting materials are publicly available.
 
 ## Hardware Platform
 
